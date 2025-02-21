@@ -32,14 +32,13 @@ export default function TrainTicket() {
             <div className="space-y-4">
               <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <p className="text-sm opacity-80">FROM</p>
-                  <p className="font-bold">SEALDAH</p>
-                  <p className="text-sm">सियालदह</p>
+                  <p className="text-sm opacity-80">S</p>
+                  <p className="text-sm">D</p>
                 </div>
                 <div>
-                  <p className="text-sm opacity-80">TO</p>
+                  <p className="text-sm opacity-80">Manmad मनमाड</p>
                   <p className="font-bold">DAKSHINESWAR</p>
-                  <p className="text-sm">दक्षिणेश्वर</p>
+                  <p className="text-sm">Parbhani परभणी</p>
                 </div>
               </div>
 
