@@ -44,19 +44,20 @@ export default function TrainTicket() {
 
               <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <p className="text-sm opacity-80">PASSENGERS</p>
-                  <p className="font-bold">ADULT: 2 CHILD: 1</p>
+                  
+                  <p className="font-bold">ADULT: 1 CHILD: 0</p>
                 </div>
-                <div>
-                  <p className="text-sm opacity-80">CLASS</p>
-                  <p className="font-bold">SECOND (II)</p>
-                </div>
+                
               </div>
 
               <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <p className="text-sm opacity-80">TRAIN</p>
-                  <p className="font-bold">ORDINARY (O)</p>
+                  <p className="text-sm opacity-80">CLASS</p>
+                  <p className="font-bold">द्वितीय<br></br>SECOND (II)</p>
+                </div>
+                <div>
+                  <p className="text-sm opacity-80">Train Type</p>
+                  <p className="font-bold">मेल/ एक्सप्रेस<br> Mail/Exp</p>
                 </div>
                 <div>
                   <p className="text-sm opacity-80">VIA</p>
