@@ -32,7 +32,7 @@ export default function TrainTicket() {
             <div className="space-y-4">
               <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <div className="rounded-full ml-2 bg-white w-6 h-6"><p className="text-sm opacity-80">S</p></div>
+                  <div className="rounded-full ml-2 bg-white w-6 h-6 flex item-center justify-center"><p className="text-sm opacity-80">S</p></div>
                   <p className="text-sm">D</p>
                 </div>
                 <div>
