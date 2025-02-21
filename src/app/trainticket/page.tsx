@@ -53,11 +53,11 @@ export default function TrainTicket() {
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <p className="text-sm opacity-80">CLASS</p>
-                  <p className="font-bold">द्वितीय<br></br>SECOND (II)</p>
+                  <p className="font-bold">द्वितीय SECOND (II)</p>
                 </div>
                 <div>
                   <p className="text-sm opacity-80">Train Type</p>
-                  <p className="font-bold">मेल/ एक्सप्रेस<br> Mail/Exp</p>
+                  <p className="font-bold">मेल/ एक्सप्रेस Mail/Exp</p>
                 </div>
                 <div>
                   <p className="text-sm opacity-80">VIA</p>
