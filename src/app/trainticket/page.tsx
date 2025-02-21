@@ -1,5 +1,4 @@
 "use client";
-import { ChevronLeft } from "lucide-react";
 import { useRouter } from "next/navigation";
 export default function TrainTicket() {
   const router = useRouter();
