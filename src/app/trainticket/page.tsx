@@ -6,13 +6,6 @@ export default function TrainTicket() {
   return (
     <div className="h-screen bg-gray-100">
       <div className="max-w-md mx-auto h-full">
-        {/* Header */}
-        <div className="bg-gradient-to-r from-[#ff7b5f] to-[#ff6b66] p-4 flex items-center gap-4 text-white">
-          <button className="hover:opacity-80">
-            <ChevronLeft className="w-6 h-6" />
-          </button>
-          <h1 className="text-lg font-medium">TICKET</h1>
-        </div>
 
         {/* Ticket Content */}
         <div className="p-4">
@@ -22,13 +15,13 @@ export default function TrainTicket() {
                 HAPPY JOURNEY
               </h2>
               <div className="text-center w-full">
-                <p className="text-sm">JOURNEY (J)</p>
+                <p className="text-sm font-bold">JOURNEY</p>
               </div>
 
               <div className="flex justify-between items-start mb-2">
                 <div>
                   <p className="font-bold">Rs. 15.00 /-</p>
-                  <p className="text-xs opacity-80">UTS NO.: XE6KCTO001</p>
+                  <p className="text-sm opacity-80">UTS NO.: XE6KCTO001</p>
                 </div>
                 <div className="text-right">
                   <p className="font-bold">02/12/2020</p>
