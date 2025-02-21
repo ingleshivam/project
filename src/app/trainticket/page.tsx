@@ -21,7 +21,7 @@ export default function TrainTicket() {
               <div className="flex justify-between items-start mb-2">
                 <div>
                   <p className="font-bold">Rs. 15.00 /-</p>
-                  <p className="text-sm opacity-80">UTS NO.: XE6KCTO001</p>
+                  <p className="text-md opacity-80">UTS NO.: XE6KCTO001</p>
                 </div>
                 <div className="text-right">
                   <p className="font-bold">02/12/2020</p>
