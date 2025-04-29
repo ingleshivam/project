@@ -2,11 +2,7 @@
 import { useRouter } from "next/navigation";
 export default function TrainTicket() {
   const router = useRouter();
-  const stations = [
-  { initial: 'S', name: 'Manmad मनमाड', color: '#F40076' },
-  { initial: 'D', name: 'Parbhani परभणी', color: '#F40076' },
-  // add more if needed
-];
+
   return (
     <div className="h-screen bg-gray-100">
       <div className="max-w-md mx-auto h-full">
