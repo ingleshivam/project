@@ -35,21 +35,17 @@ export default function TrainTicket() {
             </div>
 
             <div className="space-y-4">
-              <div className="grid grid-cols-6 gap-4">
-    <div className="grid grid-rows-2 gap-4">
-      {stations.map((station, index) => (
-        <div key={index} className="flex items-center gap-4">
-          <div
-            style={{ backgroundColor: station.color }}
-            className="rounded-full ml-2 w-6 h-6 flex items-center justify-center"
-          >
-            <p className="text-sm opacity-80">{station.initial}</p>
-          </div>
-          <p className="text-sm opacity-80">{station.name}</p>
-        </div>
-      ))}
-    </div>
-  </div>
+              <div className="grid grid-cols-6 gap-4">  
+                <div className="grid grid-rows-2 gap-4">  
+                  <div className="flex items-center gap-4">  
+                       <div style={{backgroundColor:"#F40076"}} className="rounded-full ml-2 w-6 h-6 flex item-center justify-center"><p className="text-sm opacity-80">S</p></div>  
+                       <p className="text-sm opacity-80">Manmad मनमाड</p>  
+                  </div>                
+                <div className="flex items-center gap-4">  
+                  <div style={{backgroundColor:"#F40076"}} className="rounded-full ml-2 w-6 h-6 flex item-center justify-center"><p className="text-sm opacity-80">D</p></div>           
+                  <p className="text-sm">Parbhani परभणी</p>  
+                </div>  
+            </div>
               </div>
 
               <div className="grid grid-cols-2 gap-4">
