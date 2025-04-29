@@ -34,11 +34,11 @@ export default function TrainTicket() {
               <div className="grid grid-cols-6 gap-4">  
                 <div className="grid grid-rows-2 gap-4">  
                   <div className="flex items-center gap-4">  
-                       <div style={{backgroundColor:"#F40076"}} className="rounded-full ml-2 w-8 h-6 flex item-center justify-center"><p className="text-sm opacity-80">S</p></div>  
+                       <div style={{backgroundColor:"#F40076"}} className="rounded-full ml-2 w-9 h-6 flex item-center justify-center"><p className="text-sm opacity-80 text-center">S</p></div>  
                        <p className="text-sm opacity-80">Manmad मनमाड</p>  
                   </div>                
                 <div className="flex items-center gap-4">  
-                  <div style={{backgroundColor:"#F40076"}} className="rounded-full ml-2 w-8 h-6 flex item-center justify-center"><p className="text-sm opacity-80">D</p></div>           
+                  <div style={{backgroundColor:"#F40076"}} className="rounded-full ml-2 w-9 h-6 flex item-center justify-center"><p className="text-sm opacity-80 text-center">D</p></div>           
                   <p className="text-sm">Parbhani परभणी</p>  
                 </div>  
             </div>
